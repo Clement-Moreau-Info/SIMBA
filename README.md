@@ -24,7 +24,7 @@ UI file codes SIMBA user interface. Currently composed of 5 main panels which ca
 
 -> Loading panel   ===> `simba_ui_load.R`
 
--> Ontology panel  ===> `simba_ui_ontology.R
+-> Ontology panel  ===> `simba_ui_ontology.R`
 
 -> Filter panel    ===> `simba_ui_filter.R`
 
