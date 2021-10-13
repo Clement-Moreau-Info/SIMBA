@@ -6,7 +6,13 @@ For questions and remarks contact : cmoreau.info@gmail.com
 
 ## Run the app
 
-Dowload all files in your R workspace and simply run the file named `simba_app.R` on RStudio.
+For run the Simba : 
+
+1. Dowload the project.
+ 
+2. Place it in your R workspace.
+
+3. Simply run the file named `simba_app.R` on RStudio.
 
 ## Play with data
 
@@ -18,7 +24,9 @@ Simba can be tested using the files in the folder "Data".
 
 * `dist.csv`         is the distance matrix between all paired sequences. 
 
-## UI File
+Simba uses a set of ontologies to compare and display statistics and data. Ontologies can be imported using the knowledge graph format used in the folder `Ontology`. 
+
+## UI File: `simba_ui.R`
 
 UI file codes SIMBA user interface. Currently composed of 5 main panels which can be found in the UI folder : 
 
@@ -32,6 +40,16 @@ UI file codes SIMBA user interface. Currently composed of 5 main panels which ca
 
 * Cluster panel   ==> `simba_ui_cluster.R`
 
-## Server File
+## Server File: `simba_server.R`
 
-TO DO...
+* Button and action gestion   ==> `simba_server_button.R`
+
+* Ontology display ==> `simba_server_ontology.R`
+
+* Statistical functions on Sequences ==> `simba_server_statSeq.R`
+
+* Statistical functions on Individuals ==> `simba_server_statInd.R`
+
+* Clustering and statistics on clusters ==> `simba_server_cluster.R`
+
+* Cloud words ==> `simba_server_ciel.R`
