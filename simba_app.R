@@ -65,12 +65,19 @@ pacman::p_load(
   htmlwidgets,
   shinyalert,
   grDevices,
+  remotes,
+  descr,
   ROCR
 )
 
 library(shiny)
 library(shinydashboard)
 library(shinyjs)
+library(remotes)
+library(descr)
+
+
+remotes::install_github("mattflor/chorddiag")
 
 # Encodage et taille maximale d'upload de fichiers
 
