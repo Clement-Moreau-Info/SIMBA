@@ -4,6 +4,10 @@ Coded by Clément Moreau and Mathis Rharbal.
 
 For questions and remarks contact : cmoreau.info@gmail.com
 
+## Preliminary installations 
+
+Please install an [Anaconda](https://www.anaconda.com/products/individual) / Python / Miniconda version on your computer. 
+
 ## Run the app
 
 For run the Simba : 
